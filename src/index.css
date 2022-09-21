@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.my-nav-bar {
+  height: 5vh;
+  background-color: transparent;
+  font-size: smaller;
+}
+.profile-content {
+  display: flex;
+  width: 100%;
+  height: 40vmin;
+}
+.about-me {
+  height: 30vh;
+  margin-left: 20%;
+  color: white;
+}
+.contact-container {
+  height: 23vh;
+  width: 100%;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  color: white;
+}
+.small-box {
+  color: white;
+  display: inline-block;
+  padding: 1% 5% 1% 5%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 111, 1) 43%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: solid 1px white;
+}
+.image {
+  height: 150px;
+  width: 150px;
+  border: 3px white solid;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-image {
+  width: 100%;
+  height: 100%;
+}
+.name {
+  font-size: 70px;
+  margin: 0%;
+}
+/* Skills */
+.skill-card {
+  height: 150px;
+  width: 250px;
+  /* border: 1px black solid; */
+  border-radius: 20px;
+  margin: 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    red 0%,
+    rgb(36, 0, 0) 30%,
+    black 70%
+  );
+  color: white;
+}
+.skills-container {
+  display: flex;
+  border: 1px white solid;
+}
+.projects-page {
+  color: white;
+}
+.project-card {
+  height: 500px;
+  width: 290px;
+  border: 1px white solid;
+  border-radius: 10px;
+  margin: 30px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 111, 1) 43%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.project-image-container {
+  height: 300px;
+  width: 100%;
+  border-bottom: 1px white solid;
+  overflow: hidden;
+}
+.project-image {
+  height: 100%;
+  width: 100%;
+}
+
+.projects-container {
+  display: flex;
+  border: 1px white solid;
+}
+
+@media only screen and (max-width: 656px) {
+  .small-box {
+    color: white;
+    display: inline-block;
+    padding: 1% 5% 1% 5%;
+    margin: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      45deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 9, 111, 1) 43%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    border: solid 1px white;
+  }
+  .image {
+    height: 80px;
+    width: 80px;
+    border: 3px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profile-content {
+    display: flex;
+    width: 100%;
+    height: 75vmin;
+  }
+  .project-card {
+    height: 500px;
+    width: 80vw;
+    border: 1px white solid;
+    border-radius: 10px;
+    margin: 30px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      45deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 9, 111, 1) 43%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  #offcanvasNavbarDropdown-expand-sm {
+    color: white;
+    background: linear-gradient(
+      45deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 9, 111, 1) 43%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  .contact-container {
+    height: 30vh;
+    width: 100%;
+  }
+}

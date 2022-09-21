@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/bonniekiarie/static/css/main.2e652612.css",
+    "main.js": "/bonniekiarie/static/js/main.f6a47473.js",
+    "static/js/787.1ed0c42c.chunk.js": "/bonniekiarie/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile.jpg": "/bonniekiarie/static/media/profile.9389f95aa92cf8663e9f.jpg",
+    "static/media/door-automation-pic.jpg": "/bonniekiarie/static/media/door-automation-pic.8f364638d8ec6c693771.jpg",
+    "static/media/background.jpg": "/bonniekiarie/static/media/background.7d4f3380d1ab610a87a8.jpg",
+    "index.html": "/bonniekiarie/index.html",
+    "main.2e652612.css.map": "/bonniekiarie/static/css/main.2e652612.css.map",
+    "main.f6a47473.js.map": "/bonniekiarie/static/js/main.f6a47473.js.map",
+    "787.1ed0c42c.chunk.js.map": "/bonniekiarie/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e652612.css",
+    "static/js/main.f6a47473.js"
+  ]
+}

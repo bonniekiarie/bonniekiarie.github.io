@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bonniekiarie.github.io/static/css/main.761be234.css",
-    "main.js": "/bonniekiarie.github.io/static/js/main.05747203.js",
-    "static/js/787.1ed0c42c.chunk.js": "/bonniekiarie.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profile.jpg": "/bonniekiarie.github.io/static/media/profile.9389f95aa92cf8663e9f.jpg",
-    "static/media/door-automation-pic.jpg": "/bonniekiarie.github.io/static/media/door-automation-pic.8f364638d8ec6c693771.jpg",
-    "static/media/background.jpg": "/bonniekiarie.github.io/static/media/background.7d4f3380d1ab610a87a8.jpg",
-    "index.html": "/bonniekiarie.github.io/index.html",
-    "main.761be234.css.map": "/bonniekiarie.github.io/static/css/main.761be234.css.map",
-    "main.05747203.js.map": "/bonniekiarie.github.io/static/js/main.05747203.js.map",
-    "787.1ed0c42c.chunk.js.map": "/bonniekiarie.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.1d74e59d.css",
+    "main.js": "/static/js/main.f1787bbe.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.9389f95aa92cf8663e9f.jpg",
+    "static/media/door-automation-pic.jpg": "/static/media/door-automation-pic.8f364638d8ec6c693771.jpg",
+    "static/media/background.jpg": "/static/media/background.7d4f3380d1ab610a87a8.jpg",
+    "index.html": "/index.html",
+    "main.1d74e59d.css.map": "/static/css/main.1d74e59d.css.map",
+    "main.f1787bbe.js.map": "/static/js/main.f1787bbe.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.761be234.css",
-    "static/js/main.05747203.js"
+    "static/css/main.1d74e59d.css",
+    "static/js/main.f1787bbe.js"
   ]
 }

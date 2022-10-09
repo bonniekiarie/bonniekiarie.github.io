@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
+
 function MyNavBar() {
   return (
     <>
@@ -25,10 +26,12 @@ function MyNavBar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/">My Skills</Nav.Link>
-                <Nav.Link href="/projects">Projects</Nav.Link>
-                <Nav.Link href="/">Download Cv</Nav.Link>
+                <Nav.Link href="/#/">Home</Nav.Link>
+                <Nav.Link href="/#/skills">My Skills</Nav.Link>
+                <Nav.Link href="/#/projects">Projects</Nav.Link>
+                <Nav.Link href="cv.pdf" download>
+                  Download Cv
+                </Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

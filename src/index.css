@@ -67,6 +67,7 @@ code {
   border: 3px white solid;
   border-radius: 50%;
   overflow: hidden;
+  margin: auto;
 }
 .profile-image {
   width: 100%;
@@ -78,22 +79,18 @@ code {
 }
 /* Skills */
 .skill-card {
-  height: 150px;
+  height: 120px;
   width: 250px;
-  /* border: 1px black solid; */
+  border: 1px white solid;
   border-radius: 20px;
   margin: 30px;
-  background-image: linear-gradient(
-    to bottom right,
-    red 0%,
-    rgb(36, 0, 0) 30%,
-    black 70%
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 111, 1) 43%,
+    rgba(0, 212, 255, 1) 100%
   );
   color: white;
-}
-.skills-container {
-  display: flex;
-  border: 1px white solid;
 }
 .projects-page {
   color: white;
@@ -122,12 +119,6 @@ code {
   height: 100%;
   width: 100%;
 }
-
-.projects-container {
-  display: flex;
-  border: 1px white solid;
-}
-
 @media only screen and (max-width: 656px) {
   .small-box {
     color: white;
